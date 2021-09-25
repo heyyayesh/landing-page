@@ -1,1 +1,2 @@
-This is a beginner project of mine aiming to create a landing page to a generic website. I am creating this project while following through [The Odin Project.](https://www.theodinproject.com/dashboard)
+This is a beginner project of mine aiming to create a landing page to a generic website. I am creating this project while following through [The Odin Project](https://www.theodinproject.com/dashboard).
+Images used on the site are from [@alexbemore](https://unsplash.com/@alexbemore) and [@ollila](https://unsplash.com/@ollila).

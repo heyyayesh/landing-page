@@ -5,6 +5,8 @@ body{
     align-items: center;
     margin: 0px;
     padding: 0px;
+    max-width: 100%;
+    overflow-x: hidden;
 }
 
 .partone{
@@ -13,6 +15,14 @@ body{
     background-color: #1F2937;
     color: white;
     gap: 50px;
+    width: 1519px;
+    padding-bottom: 68px ;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
 
 .headerlogo{
@@ -20,25 +30,21 @@ body{
     font-weight: 700;
     color: #F9FAF8;
 }
-.header{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
 
 .mainimage{
     display: block;
-    max-width:600px;
+    max-width: 600px;
     max-height:250px;
     width: auto;
     height: auto;
-    border: solid 2px white;
+    border: solid 0px white;
     border-radius: 16px;
+    
 }
 
 .titleanddesc{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     gap: 48px;
     align-items: center;
     flex: 1;
@@ -55,6 +61,10 @@ body{
 a{
     text-decoration: none;
     color: white;
+}
+
+a:hover{
+    color: #3B82F6;
 }
 
 ol{
@@ -80,21 +90,106 @@ ol{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    width: 400px;
+    width: 390px;
 }
 
 .parttwo{
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 38px;
+    padding-bottom: 80px;
+    width: 1519px;
+}
+
+.followme{
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+}
+
+img{
+    width: 200px;
+    height: 150px;
+    border: transparent 2px;
+    border-radius: 16px;
+}
+
+.email, .twitter, .linkedin, .instagram{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.emaillink, .twitterlink, .linkedinlink, .instagramlink{
+    color: #1f2937;
+    font-size: 16px;
+    text-decoration: underline;
+}
+
+.emaillink:hover, .twitterlink:hover, .linkedinlink:hover, .instagramlink:hover{
+    color: #3B82F6;
 }
 
 .partthree{
     display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    justify-content: center;
+    align-items: center;
+    padding: 120px;
+    width: 1519px;
+}
+
+.quotetext{
+    font-size: 36px;
+    width: 990px;
+    color: #28323F;
+    font-style: italic;
+}
+
+.quoteby{
+    font-size: 24px;
+    font-weight: bold;
+    margin-right: -730px;
 }
 
 .partfour{
     display: flex;
+    width: 1519px;
+    justify-content: center;
+    padding: 100px;
+}
+
+.fourthpart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3B82F6;
+    padding: 20px;
+    width: 900px;
+    border: transparent;
+    border-radius: 16px;
+    gap: 100px;
+}
+
+.signup2{
+    color: white;
+    font-size: 16px;
+    border: 2px solid white;
+    border-radius: 8px;
+    background-color: #3B82F6;
+    padding: 8px;
+    width: 100px;
 }
 
 .partfive{
     display: flex;
+    justify-content: center;
+    background-color: #1F2937;
+    width: 1519px;
+    color: #E9EAEB;
+    font-size: 18px;
+    padding: 10px;
 }
