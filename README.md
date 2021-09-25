@@ -1,0 +1,1 @@
+This is a beginner project of mine aiming to create a landing page to a generic website. I am creating this project while following through [The Odin Project.](https://www.theodinproject.com/dashboard)

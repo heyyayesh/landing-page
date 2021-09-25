@@ -1,0 +1,100 @@
+body{
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+.partone{
+    display: flex;
+    flex-direction: column;
+    background-color: #1F2937;
+    color: white;
+    gap: 50px;
+}
+
+.headerlogo{
+    font-size: 24px;
+    font-weight: 700;
+    color: #F9FAF8;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.mainimage{
+    display: block;
+    max-width:600px;
+    max-height:250px;
+    width: auto;
+    height: auto;
+    border: solid 2px white;
+    border-radius: 16px;
+}
+
+.titleanddesc{
+    display: flex;
+    justify-content: space-between;
+    gap: 48px;
+    align-items: center;
+    flex: 1;
+}
+
+.signup1{
+    background-color: #3B82F6;
+    width: 100px;
+    color: white;
+    border-radius: 8px;
+    padding: 8px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+ol{
+    list-style: none;
+    margin: 10;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+.thiswebsite{
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 600;
+}
+
+.subtext, a{
+    font-size: 18px;
+    color: #C9CCD1;
+}
+
+.descleft{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 400px;
+}
+
+.parttwo{
+    display: flex;
+}
+
+.partthree{
+    display: flex;
+}
+
+.partfour{
+    display: flex;
+}
+
+.partfive{
+    display: flex;
+}
